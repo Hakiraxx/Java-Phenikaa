@@ -10,6 +10,8 @@ package week6_continue;
  */
 public class Week6_continue {
     public static void main(String[] args) {
-     
+        Circle c1 = new Circle(5.0);
+        
+        System.out.println("dien tich" + c1.getArea());
     }
 }
