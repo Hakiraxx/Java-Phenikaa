@@ -1,0 +1,12 @@
+Circle[Shape[color=red, filled=true], radius=1.5]
+Area: 7.07, Perimeter: 9.42
+Rectangle[Shape[color=blue, filled=false], width=2.0, length=3.0]
+Area: 6.00, Perimeter: 10.00
+Square[Rectangle[Shape[color=green, filled=true], width=4.0, length=4.0]]
+Area: 16.00, Perimeter: 16.00
+
+totalPerimeter: %.2f%n29.068583470577035
+totalPerimeter: %.2f%n35.424777960769376
+countCircle: %.2f%n1.0
+countRectangle: %.2f%n1.0
+countSquare: %.2f%n1.0

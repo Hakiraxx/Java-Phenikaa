@@ -46,14 +46,11 @@ public class Week7_Continue  {
         System.out.println("So Luong Circle: " + countCircle );
         
        for (Shape s : item) {
-            if (s instanceof Circle) {
-                Circle c = (Circle) s;
+            if (s instanceof Circle c) {
                 System.out.println("Circle: radius = " + c.getRadius());
-            } else if (s instanceof Square) {
-                Square sq = (Square) s;
+            } else if (s instanceof Square sq) {
                 System.out.println("Square: side = " + sq.getSide());
-            } else if (s instanceof Rectangle) {
-                Rectangle r = (Rectangle) s;
+            } else if (s instanceof Rectangle r) {
                 System.out.println("Rectangle: width = " + r.getWidth() + ", length = " + r.getLength());
             }
         }
